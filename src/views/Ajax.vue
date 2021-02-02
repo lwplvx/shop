@@ -28,7 +28,7 @@ export default {
       if (window.XMLHttpRequest) {
         xmlhttp = new XMLHttpRequest();
       } else {
-        xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        // xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
       }
       // 2、发送请求
       xmlhttp.open("GET", movieUrl, true);
